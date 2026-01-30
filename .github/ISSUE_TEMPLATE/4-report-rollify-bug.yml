@@ -1,0 +1,40 @@
+name: Report Rollify Bug
+description: Report Bug for Rollify to help us improve
+labels: ["v1-rollify-terv-pro"]
+assignees: 
+  - cloudopsone
+projects: ["cloudops-one/2"]
+type: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: Which Mobile App / Web Browser are you facing the problem on?
+      description: You can choose multiple options
+      multiple: true
+      options:
+        - iPhone (Mobile App)
+        - Android (Mobile App)
+        - Firefox (Desktop Browser)
+        - Chrome (Desktop Browser)
+        - Safari (Desktop Browser)r
+        - Microsoft Edge (Desktop Browser)
+        - Firefox (Mobile Browser)
+        - Chrome (Mobile Browser)
+        - Safari (Mobile Browser)
+        - Microsoft Edge (Mobile Browser)
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened? Please share us with some relevant log output or screenshots.
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+
