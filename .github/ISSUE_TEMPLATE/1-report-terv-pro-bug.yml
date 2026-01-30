@@ -11,6 +11,18 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: dropdown
+    id: envs
+    attributes:
+      label: Which environment are you facing the problem on?
+      description: You can choose multiple options
+      multiple: true
+      options:
+        - Live
+        - Stage
+        - Preview
+    validations:
+      required: true
+  - type: dropdown
     id: browsers
     attributes:
       label: Which Mobile App / Web Browser are you facing the problem on?
