@@ -1,9 +1,9 @@
-name: PrepBuddy Bug Request
-description: Report Bug for PrepBuddy to help us improve
-labels: ["v1-prepbuddy-co-in"]
+name: Irai Yoga Bug Request
+description: Report Bug for Irai Yoga to help us improve
+labels: ["v1-irai-yoga"]
 assignees: 
-  - joshua-d-terv-pro
-projects: ["cloudops-one/2"]
+  - prasanth-s-terv-pro
+projects: ["cloudops-one/2","cloudops-one/4"]
 type: bug
 body:
   - type: markdown
@@ -49,3 +49,4 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+

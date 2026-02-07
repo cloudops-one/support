@@ -1,9 +1,9 @@
-name: Terv Pro Support Request
-description: Terv Pro Support Request
-labels: ["v1-terv-pro"]
+name: Irai Yoga Support Request
+description: Irai Yoga Support Request
+labels: ["v1-irai-yoga"]
 assignees: 
-  - yusuf-n-terv-pro
-projects: ["cloudops-one/2"]
+  - prasanth-s-terv-pro
+projects: ["cloudops-one/2","cloudops-one/4"]
 type: support
 body:
   - type: markdown

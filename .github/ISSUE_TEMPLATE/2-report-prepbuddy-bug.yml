@@ -1,9 +1,9 @@
-name: Terv Pro Bug Request
-description: Report Bug for Terv Pro to help us improve
-labels: ["v1-terv-pro"]
+name: PrepBuddy Bug Request
+description: Report Bug for PrepBuddy to help us improve
+labels: ["v1-prepbuddy-co-in"]
 assignees: 
   - joshua-d-terv-pro
-projects: ["cloudops-one/2"]
+projects: ["cloudops-one/2","cloudops-one/4"]
 type: bug
 body:
   - type: markdown

@@ -3,7 +3,7 @@ description: Report Bug for Rollify to help us improve
 labels: ["v1-rollify-terv-pro"]
 assignees: 
   - cloudopsone
-projects: ["cloudops-one/2"]
+projects: ["cloudops-one/2","cloudops-one/4"]
 type: bug
 body:
   - type: markdown
