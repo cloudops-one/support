@@ -49,3 +49,11 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+  - type: input
+    id: parent-issue-id
+    attributes:
+      label: Parent issue ID
+      description: Enter the parent issue number or full reference like cloudops-one/support#123
+      placeholder: e.g. 123 or cloudops-one/support#123
+    validations:
+      required: false
