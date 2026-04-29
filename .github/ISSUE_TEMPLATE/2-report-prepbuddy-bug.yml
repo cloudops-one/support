@@ -53,7 +53,7 @@ body:
     id: parent-issue-id
     attributes:
       label: Parent issue ID
-      description: Enter the parent issue number or full reference like cloudops-one/support#123
-      placeholder: e.g. 123 or cloudops-one/support#123
+      description: Enter the parent issue full reference link. You can have comma separated one or more links.
+      placeholder: e.g. https://github.com/cloudops-one/product-engineering/issues/412
     validations:
       required: false
